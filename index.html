@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>%NAME% · Video Editor</title>
+<meta name="description" content="Video editor for faceless YouTube channels, documentaries, Shorts and talking-head clips.">
+<meta name="theme-color" content="#f7f5f0">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="%NAME% · Video Editor">
+<meta property="og:description" content="Edits that keep people watching: faceless YouTube, documentaries, Shorts and talking-head clips.">
+<meta property="og:image" content="%OG_IMAGE%">
+<meta property="og:url" content="%SITE_URL%">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="%NAME% · Video Editor">
+<meta name="twitter:description" content="Edits that keep people watching: faceless YouTube, documentaries, Shorts and talking-head clips.">
+<meta name="twitter:image" content="%OG_IMAGE%">
+<script>
+  // apply the saved theme before first paint (light is the default)
+  try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+
+<nav class="nav" id="nav"><div class="wrap">
+  <a class="logo" href="#top" aria-label="%NAME% home">%NAME%<span>.</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-tools">
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+      <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+      <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    <a class="btn primary small nav-cta" href="#contact">Hire me</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap hero-grid">
+  <div class="hero-text">
+    <span class="status reveal"><i aria-hidden="true"></i>Available for new projects</span>
+    <h1 class="reveal">Video edits that keep people <em>watching.</em></h1>
+    <p class="lead reveal">I'm %NAME%, a freelance video editor in the Philippines. I edit faceless YouTube videos,
+      documentaries, Shorts and podcast clips: you send a script and voiceover (or raw footage), I handle the
+      b-roll, captions, motion, music and sound.</p>
+    <div class="cta reveal">
+      <a class="btn primary" href="#work">See my work</a>
+      <a class="btn ghost" href="#contact">Contact me</a>
+    </div>
+    <dl class="facts reveal">
+      <div><dt>Turnaround</dt><dd>24–48 h</dd></div>
+      <div><dt>Delivery</dt><dd>1080p MP4 + SRT</dd></div>
+      <div><dt>Time zone</dt><dd>GMT+8, flexible</dd></div>
+    </dl>
+  </div>
+  <figure class="reel reveal">
+    <div class="reel-frame">
+      <video id="hero-video" muted loop playsinline preload="none"></video>
+      <button class="reel-toggle" id="reel-toggle" type="button" aria-pressed="false" hidden>Pause reel</button>
+    </div>
+    <figcaption>Showreel · cuts from the projects below</figcaption>
+  </figure>
+</div>
+<div class="wrap"><div class="stats" id="stats" aria-label="Numbers"></div></div>
+</header>
+
+<section id="work"><div class="wrap">
+  <div class="sec-head">
+    <div>
+      <span class="eyebrow">01 · Work</span>
+      <h2 class="reveal">Selected projects</h2>
+      <p class="sub reveal">Built to the same briefs clients post: script and voiceover in, finished video out. Click any project to watch it.</p>
+    </div>
+  </div>
+  <div class="chips reveal" id="chips" role="toolbar" aria-label="Filter work"></div>
+  <h3 class="group-title" id="long-head">Long-form <span>16:9</span></h3>
+  <div class="grid" id="long"></div>
+  <div class="shorts-head" id="shorts-head"><h3 class="group-title">Shorts &amp; vertical <span>9:16</span></h3></div>
+  <div class="shorts" id="shorts"></div>
+  <p class="empty" id="empty" hidden>Nothing in this category yet.</p>
+
+  <div class="ba-block" id="before-after">
+    <h3 class="group-title">Before / after <span>drag the divider</span></h3>
+    <p class="sub">Left: what a client sends (a script and a raw voiceover). Right: the same seconds after my edit.</p>
+    <div class="ba" id="ba">
+      <video class="ba-after" id="ba-after" muted loop playsinline preload="metadata"></video>
+      <div class="ba-before-wrap" id="ba-before-wrap">
+        <video class="ba-before" id="ba-before" muted loop playsinline preload="metadata"></video>
+      </div>
+      <span class="ba-label left">Before</span><span class="ba-label right">After</span>
+      <div class="ba-handle" id="ba-handle" role="slider" tabindex="0" aria-label="Before / after divider"
+           aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span aria-hidden="true">⟷</span></div>
+    </div>
+    <div class="ba-controls">
+      <button class="btn ghost small" id="ba-play" type="button">Pause</button>
+      <button class="btn ghost small" id="ba-sound" type="button" aria-pressed="false">Sound: off</button>
+      <span class="muted small" id="ba-hint">Sound plays the side you're looking at most.</span>
+    </div>
+  </div>
+</div></section>
+
+<section id="about"><div class="wrap about-grid">
+  <aside class="profile reveal">
+    <div class="avatar" aria-hidden="true">%NAME%</div>
+    <h3>%NAME%</h3>
+    <p class="role">Video editor · Motion &amp; captions</p>
+    <dl class="details">
+      <div><dt>Based in</dt><dd>Philippines (GMT+8)</dd></div>
+      <div><dt>Availability</dt><dd>Freelance · part-time or full-time</dd></div>
+      <div><dt>Hours</dt><dd>I work in your time zone</dd></div>
+      <div><dt>Delivers</dt><dd>MP4, SRT captions, Premiere XML project</dd></div>
+      <div><dt>Email</dt><dd><a id="about-email" href="#contact"></a></dd></div>
+    </dl>
+    <a class="btn primary wide" href="#contact">Start a project</a>
+  </aside>
+  <div class="about-text">
+    <span class="eyebrow">02 · About</span>
+    <h2 class="reveal">Edits built around the story</h2>
+    <p class="reveal">Every cut lands on the voiceover. B-roll matches the exact line it sits under, captions are
+      readable on a phone with the sound off, and the music sits under the voice, never on top of it.</p>
+    <p class="reveal">I source licensed stock and public-domain archive footage myself, so you never get a copyright claim,
+      and every video ships with a list of credits.</p>
+    <h3 class="mini">Styles I can do</h3>
+    <div class="skills reveal" id="skills"></div>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <span class="eyebrow">03 · Services</span>
+  <h2 class="reveal">What I edit</h2>
+  <p class="sub reveal">Every edit includes footage sourcing, captions, music and sound design.</p>
+  <div class="cols">
+    <div class="tile reveal"><h3>Faceless YouTube</h3><p>Finance, psychology and explainer videos with b-roll matched to every line, kinetic titles and captions.</p></div>
+    <div class="tile reveal"><h3>Documentary &amp; history</h3><p>Cinematic grade, slow pans over archival images, serif chapter titles and a moody score.</p></div>
+    <div class="tile reveal"><h3>Shorts, Reels &amp; TikTok</h3><p>Vertical cut-downs with word-by-word captions, a strong 2-second hook and fast pacing.</p></div>
+    <div class="tile reveal"><h3>Podcast &amp; talking head</h3><p>Pauses and filler removed, jump-cut zooms, b-roll inserts and captions for silent autoplay.</p></div>
+  </div>
+  <h3 class="mini">How it works</h3>
+  <ol class="steps reveal">
+    <li><b>You send</b>Script + voiceover or raw footage, plus a reference you like.</li>
+    <li><b>I edit</b>First cut in 24–48 hours, everything included.</li>
+    <li><b>You review</b>Timestamped notes, 2 revision rounds included.</li>
+    <li><b>Delivered</b>Final MP4, SRT, footage credits, Premiere project if needed.</li>
+  </ol>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="contact-card reveal">
+    <span class="eyebrow">04 · Contact</span>
+    <h2>Let's make your next video</h2>
+    <p class="lead">Tell me about your channel and send a script. I'm happy to do a short paid test edit first.</p>
+    <a class="big-email" id="contact-email" href="#"></a>
+    <div class="contact-links" id="contact-links"></div>
+  </div>
+
+  <details class="est-wrap">
+    <summary>Get a quick price estimate</summary>
+    <form class="estimator" id="estimator" aria-label="Quick estimate" novalidate>
+      <div class="est-grid">
+        <div class="est-fields">
+          <fieldset><legend>Video type</legend><div class="seg" id="est-types"></div></fieldset>
+          <label class="field"><span>Finished length: <b id="est-len-out"></b></span><input type="range" id="est-len"></label>
+          <fieldset><legend>Extras</legend><div class="extras" id="est-extras"></div></fieldset>
+          <label class="field"><span>Anything else? <span class="muted">(optional)</span></span>
+            <textarea id="est-notes" rows="3" placeholder="Channel link, reference video, deadline…"></textarea></label>
+        </div>
+        <div class="est-result" aria-live="polite">
+          <div class="muted small">Estimated price</div>
+          <div class="est-price" id="est-price">$0</div>
+          <ul class="est-breakdown" id="est-breakdown"></ul>
+          <p class="muted small">A rough range, not a quote. Final price depends on footage, style and revisions.</p>
+          <button class="btn primary wide" type="submit">Send this brief</button>
+        </div>
+      </div>
+    </form>
+  </details>
+</div></section>
+
+<footer><div class="wrap foot">
+  <span>© <span id="y"></span> %NAME% · Video editor</span>
+  <span>Stock footage from Pexels, NASA and public-domain archives, credited in each video's description.</span>
+</div></footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" id="modal-panel">
+    <button class="icon-btn m-close" type="button" data-close aria-label="Close player">×</button>
+    <div class="m-stage" id="m-stage"><div class="m-player" id="m-player"></div><div class="m-breakdown" id="m-breakdown" hidden></div></div>
+    <div class="m-info">
+      <div class="m-meta" id="m-meta"></div>
+      <h3 id="m-title"></h3>
+      <p id="m-desc"></p>
+      <ul id="m-points"></ul>
+      <div class="m-styles" id="m-styles"></div>
+      <div class="m-actions">
+        <button class="btn ghost small" type="button" id="m-prev" aria-label="Previous video">← Prev</button>
+        <button class="btn ghost small" type="button" id="m-breakdown-btn" aria-expanded="false" aria-controls="m-breakdown">View edit breakdown</button>
+        <button class="btn ghost small" type="button" id="m-next" aria-label="Next video">Next →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

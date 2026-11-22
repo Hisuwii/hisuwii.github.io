@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.tmp.mp4
+*.tmp.jpg

@@ -1,0 +1,462 @@
+{
+  "$comment": "One entry per video. Paths in source/poster/breakdown/premiere are relative to the Portfolio folder (the parent of site/). After editing, run: npm run media",
+  "works": [
+    {
+      "id": "broke-before-payday",
+      "title": "Why You're Always Broke Before Payday",
+      "label": "Faceless YouTube",
+      "format": "16:9",
+      "tags": [
+        "Long-form",
+        "Faceless YouTube",
+        "Explainer"
+      ],
+      "year": 2026,
+      "desc": "3:48 finance-psychology explainer. Script + AI voiceover in; I sourced 56 clips and handled the edit, captions, music and sound.",
+      "points": [
+        "91 cuts timed to the voice",
+        "Karaoke captions + named section titles",
+        "Original synthesized music"
+      ],
+      "styles": [
+        "Karaoke captions",
+        "Punch-in zooms",
+        "Section title cards",
+        "Stock b-roll",
+        "Sound design"
+      ],
+      "source": "broke-before-payday/exports/broke_before_payday_upload.mp4",
+      "poster": "packs/broke_before_payday/thumbnail.jpg",
+      "breakdown": "broke-before-payday/exports/contact_sheet.png",
+      "premiere": "broke-before-payday/exports/broke_before_payday_premiere.xml",
+      "previewStart": 50,
+      "reelStart": 52,
+      "youtube": ""
+    },
+    {
+      "id": "dancing-plague",
+      "title": "The Dancing Plague of 1518",
+      "label": "Documentary",
+      "format": "16:9",
+      "tags": [
+        "Long-form",
+        "Documentary"
+      ],
+      "year": 2026,
+      "desc": "2:41 dark-history doc. Graded stock + public-domain Bruegel engravings, serif chapter titles, dark ambient score.",
+      "points": [
+        "Cinematic colour grade",
+        "Slow pans over archival art",
+        "Documentary-style subtitles"
+      ],
+      "styles": [
+        "Colour grade",
+        "Ken Burns pans",
+        "Serif chapter titles",
+        "Archival art",
+        "Ambient score"
+      ],
+      "source": "dancing-plague/exports/dancing_plague_upload.mp4",
+      "poster": "packs/dancing_plague/thumbnail.jpg",
+      "breakdown": "dancing-plague/exports/contact_sheet.png",
+      "premiere": "dancing-plague/exports/dancing_plague_premiere.xml",
+      "previewStart": 44,
+      "reelStart": 20,
+      "youtube": ""
+    },
+    {
+      "id": "ocean-facts",
+      "title": "5 Ocean Facts That Sound Fake",
+      "label": "Top-5 listicle",
+      "format": "16:9",
+      "tags": [
+        "Long-form",
+        "Listicle",
+        "Explainer"
+      ],
+      "year": 2026,
+      "desc": "1:59 countdown video. Bright, fast and punchy: numbered cards, tilted stat titles, NASA satellite imagery.",
+      "points": [
+        "Countdown cards with impact sound design",
+        "On-screen stats for every number",
+        "Upbeat original music"
+      ],
+      "styles": [
+        "Countdown cards",
+        "Kinetic stat titles",
+        "Impact SFX",
+        "Satellite imagery",
+        "Whip transitions"
+      ],
+      "source": "ocean-facts/exports/ocean_facts_upload.mp4",
+      "poster": "packs/ocean_facts/thumbnail.jpg",
+      "breakdown": "ocean-facts/exports/contact_sheet.png",
+      "premiere": "ocean-facts/exports/ocean_facts_premiere.xml",
+      "previewStart": 14,
+      "reelStart": 36,
+      "youtube": ""
+    },
+    {
+      "id": "before-after",
+      "title": "Before / After: what I add",
+      "label": "Before & after",
+      "format": "16:9",
+      "tags": [
+        "Before & after"
+      ],
+      "year": 2026,
+      "desc": "What a client sends (a script and a raw voiceover), then the same 11 seconds after my edit.",
+      "points": [
+        "Raw voiceover + script on the left",
+        "Finished edit on the right",
+        "Same 11 seconds, side by side"
+      ],
+      "styles": [
+        "Karaoke captions",
+        "Stock b-roll",
+        "Motion graphics"
+      ],
+      "source": "packs/before_after/before_after.mp4",
+      "poster": "site-legacy/img/before_after.jpg",
+      "previewStart": 11.6,
+      "reel": false,
+      "youtube": ""
+    },
+    {
+      "id": "space-qa",
+      "title": "You're already in space",
+      "label": "Talking head",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Talking head"
+      ],
+      "year": 2026,
+      "desc": "NASA astronaut Mark Vande Hei after a record 355 days in orbit, cut into a vertical Short with Earth b-roll.",
+      "points": [
+        "Pauses and filler removed",
+        "Word-by-word captions",
+        "B-roll over key lines"
+      ],
+      "styles": [
+        "Jump-cut zooms",
+        "Word-by-word captions",
+        "B-roll inserts"
+      ],
+      "source": "space-qa/exports/space_qa_short_upload.mp4",
+      "poster": "packs/space_qa_short/cover.jpg",
+      "breakdown": "space-qa/exports/contact_sheet.png",
+      "premiere": "space-qa/exports/space_qa_short_premiere.xml",
+      "previewStart": 4,
+      "youtube": ""
+    },
+    {
+      "id": "short-card-vs-cash",
+      "title": "Card users paid 2x more",
+      "label": "Short",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Faceless YouTube"
+      ],
+      "year": 2026,
+      "desc": "Vertical cut-down of the payday video: the MIT card-vs-cash experiment in 32 seconds.",
+      "points": [
+        "Hook in the first 2 seconds",
+        "Word-by-word captions",
+        "Fast pacing"
+      ],
+      "styles": [
+        "Word-by-word captions",
+        "Punch-in zooms",
+        "Stock b-roll"
+      ],
+      "source": "broke-before-payday/shorts/short1_card_vs_cash/exports/short1_card_vs_cash_upload.mp4",
+      "poster": "packs/short1_card_vs_cash/cover.jpg",
+      "breakdown": "broke-before-payday/shorts/short1_card_vs_cash/exports/contact_sheet.png",
+      "premiere": "broke-before-payday/shorts/short1_card_vs_cash/exports/short1_card_vs_cash_premiere.xml",
+      "previewStart": 3,
+      "youtube": ""
+    },
+    {
+      "id": "short-scarcity-trap",
+      "title": "Why broke people stay broke",
+      "label": "Short",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Faceless YouTube"
+      ],
+      "year": 2026,
+      "desc": "The scarcity trap explained in under 25 seconds, cut down from the long-form payday video.",
+      "points": [
+        "Hook in the first 2 seconds",
+        "Word-by-word captions",
+        "Fast pacing"
+      ],
+      "styles": [
+        "Word-by-word captions",
+        "Punch-in zooms",
+        "Stock b-roll"
+      ],
+      "source": "broke-before-payday/shorts/short2_scarcity_trap/exports/short2_scarcity_trap_upload.mp4",
+      "poster": "packs/short2_scarcity_trap/cover.jpg",
+      "breakdown": "broke-before-payday/shorts/short2_scarcity_trap/exports/contact_sheet.png",
+      "premiere": "broke-before-payday/shorts/short2_scarcity_trap/exports/short2_scarcity_trap_premiere.xml",
+      "previewStart": 3,
+      "youtube": ""
+    },
+    {
+      "id": "short-five-fixes",
+      "title": "5 fixes to stop being broke",
+      "label": "Short",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Faceless YouTube",
+        "Listicle"
+      ],
+      "year": 2026,
+      "desc": "A five-step list Short with numbered beats and captions, cut down from the long-form payday video.",
+      "points": [
+        "Numbered beats",
+        "Word-by-word captions",
+        "Fast pacing"
+      ],
+      "styles": [
+        "Word-by-word captions",
+        "Countdown cards",
+        "Stock b-roll"
+      ],
+      "source": "broke-before-payday/shorts/short3_five_fixes/exports/short3_five_fixes_upload.mp4",
+      "poster": "packs/short3_five_fixes/cover.jpg",
+      "breakdown": "broke-before-payday/shorts/short3_five_fixes/exports/contact_sheet.png",
+      "premiere": "broke-before-payday/shorts/short3_five_fixes/exports/short3_five_fixes_premiere.xml",
+      "previewStart": 6,
+      "youtube": ""
+    },
+    {
+      "id": "edit-reel",
+      "title": "Edit Reel: Edits That Hit",
+      "label": "Sizzle reel",
+      "format": "16:9",
+      "tags": [
+        "Showreel",
+        "Music-driven"
+      ],
+      "desc": "0:32 beat-synced sizzle reel. Every cut sits on a 140 bpm grid; glitch, whip and zoom-blur transitions, RGB split, shake and stutter on the drops.",
+      "points": [
+        "46 cuts locked to the beat",
+        "Glitch / whip / zoom-blur transitions",
+        "Kinetic type on the downbeats"
+      ],
+      "styles": [
+        "Beat sync",
+        "Glitch transitions",
+        "RGB split",
+        "Camera shake",
+        "Speed ramps",
+        "Kinetic type"
+      ],
+      "source": "sizzle-reel/exports/sui_edit_reel_upload.mp4",
+      "poster": "packs/sui_edit_reel/thumbnail.jpg",
+      "breakdown": "sizzle-reel/exports/contact_sheet.png",
+      "premiere": "sizzle-reel/exports/sui_edit_reel_premiere.xml",
+      "previewStart": 6.9,
+      "reelStart": 7.0,
+      "year": 2026,
+      "youtube": ""
+    },
+    {
+      "id": "apollo-11",
+      "title": "Apollo 11 in 80 Seconds",
+      "label": "Archival documentary",
+      "format": "16:9",
+      "tags": [
+        "Documentary",
+        "Long-form"
+      ],
+      "desc": "1:25 history piece told like a 1969 broadcast: public-domain NASA photographs, baked film grain, gate flicker and scanlines, amber teletype mission titles.",
+      "points": [
+        "Retro broadcast grade",
+        "Ken Burns moves on archival stills",
+        "Tension score with a hit on the landing"
+      ],
+      "styles": [
+        "Archival stills",
+        "Film grain",
+        "Ken Burns",
+        "Teletype titles",
+        "Original score"
+      ],
+      "source": "apollo-doc/exports/apollo11_80s_upload.mp4",
+      "poster": "packs/apollo11_80s/thumbnail.jpg",
+      "breakdown": "apollo-doc/exports/contact_sheet.png",
+      "premiere": "apollo-doc/exports/apollo11_80s_premiere.xml",
+      "previewStart": 15.5,
+      "reelStart": 16.0,
+      "year": 2026,
+      "youtube": ""
+    },
+    {
+      "id": "compound-interest",
+      "title": "How Compound Interest Actually Works",
+      "label": "Animated explainer",
+      "format": "16:9",
+      "tags": [
+        "Explainer",
+        "Motion graphics",
+        "Long-form"
+      ],
+      "desc": "1:28 fully animated explainer: flat-vector charts, sticker characters and a chalkboard formula, every reveal timed to the narrator's word.",
+      "points": [
+        "Three animation styles, one palette",
+        "Every number checked",
+        "Sound effect on every reveal"
+      ],
+      "styles": [
+        "2D animation",
+        "Data viz",
+        "Chalkboard",
+        "Word-by-word captions",
+        "Original music"
+      ],
+      "source": "explainer-compound/exports/compound_interest.mp4",
+      "poster": "explainer-compound/exports/compound_interest_thumbnail.jpg",
+      "previewStart": 40,
+      "reelStart": 41.0,
+      "year": 2026,
+      "youtube": ""
+    },
+    {
+      "id": "brand-pack",
+      "title": "Channel Branding Pack",
+      "label": "Motion graphics",
+      "format": "16:9",
+      "tags": [
+        "Motion graphics",
+        "Branding"
+      ],
+      "desc": "Logo intro, three lower-third styles and a YouTube end screen (safe-zone video slots + subscribe circle) for a concept travel channel.",
+      "points": [
+        "Animated logo reveal",
+        "3 lower-third styles",
+        "End screen ready for YouTube elements"
+      ],
+      "styles": [
+        "Logo animation",
+        "Lower thirds",
+        "End screen",
+        "Motion design"
+      ],
+      "source": "brand-pack/exports/brand_pack_upload.mp4",
+      "poster": "packs/brand_pack/thumbnail.jpg",
+      "previewStart": 1.0,
+      "reelStart": 2.5,
+      "year": 2026,
+      "youtube": ""
+    },
+    {
+      "id": "podcast-clip",
+      "title": "Why you can't focus anymore",
+      "label": "Podcast clip",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Podcast"
+      ],
+      "desc": "Podcast clip for Shorts/Reels: two speaker panels, active-speaker highlight with a live waveform, jump punch-ins and word-pop captions.",
+      "points": [
+        "Active-speaker tracking",
+        "Audio-reactive waveform",
+        "Captions between the speakers"
+      ],
+      "styles": [
+        "Podcast clipping",
+        "Audiogram",
+        "Punch-in zooms",
+        "Word-pop captions"
+      ],
+      "source": "podcast-clip/exports/focus_podcast_clip_upload.mp4",
+      "poster": "packs/focus_podcast_clip/cover.jpg",
+      "breakdown": "podcast-clip/exports/contact_sheet.png",
+      "premiere": "podcast-clip/exports/focus_podcast_clip_premiere.xml",
+      "previewStart": 2.5,
+      "year": 2026,
+      "youtube": ""
+    },
+    {
+      "id": "story-short",
+      "title": "The last note made me cry",
+      "label": "Story-time Short",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Storytelling"
+      ],
+      "desc": "Story-time Short: post-card hook, handwritten sticky notes that slap in with the story, mood inserts and word-pop captions.",
+      "points": [
+        "Hook card in the first second",
+        "Designed sticky-note graphics",
+        "Emotional piano score"
+      ],
+      "styles": [
+        "Story-time format",
+        "Custom graphics",
+        "Word-pop captions",
+        "Mood inserts"
+      ],
+      "source": "story-short/exports/notes_story_short_upload.mp4",
+      "poster": "packs/notes_story_short/cover.jpg",
+      "breakdown": "story-short/exports/contact_sheet.png",
+      "premiere": "story-short/exports/notes_story_short_premiere.xml",
+      "previewStart": 5.8,
+      "year": 2026,
+      "youtube": ""
+    },
+    {
+      "id": "motion-story",
+      "title": "You don't need more motivation",
+      "label": "Motion story",
+      "format": "9:16",
+      "tags": [
+        "Shorts",
+        "Motion graphics"
+      ],
+      "desc": "Kinetic-type motion story: one giant word per line, filled-stickman scenes, every picture cut and low boom landing on its key word.",
+      "points": [
+        "Cuts frame-locked to key words",
+        "Original score written to the edit",
+        "Bold two-tone kinetic type"
+      ],
+      "styles": [
+        "Kinetic typography",
+        "Stickman animation",
+        "Sound design"
+      ],
+      "source": "motion-story-short/first-step_upload.mp4",
+      "poster": "packs/first_step/cover.jpg",
+      "breakdown": "motion-story-short/contact_sheet.png",
+      "previewStart": 0.5,
+      "year": 2026,
+      "youtube": ""
+    }
+  ],
+  "beforeAfter": {
+    "source": "packs/before_after/before_after.mp4",
+    "before": [
+      0,
+      11.4
+    ],
+    "after": [
+      11.4,
+      22.8
+    ],
+    "beforeLabel": "What the client sends: script + raw voiceover",
+    "afterLabel": "The same seconds after my edit"
+  },
+  "showreel": {
+    "clipSeconds": 1.8,
+    "$comment": "Each work with reel !== false adds one clip starting at reelStart (default previewStart + 1)."
+  }
+}

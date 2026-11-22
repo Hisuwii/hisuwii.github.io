@@ -1,0 +1,336 @@
+{
+  "works": {
+    "before-after": {
+      "duration": 25.8,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/before-after/web.mp4",
+      "preview": "media/before-after/preview.mp4",
+      "poster": "media/before-after/poster.jpg",
+      "breakdown": null,
+      "timelineItems": null,
+      "bytes": {
+        "web": 2252278,
+        "preview": 163670
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-11.6",
+        "poster.jpg": "poster-v1-site-legacy/img/before_after.jpg"
+      }
+    },
+    "space-qa": {
+      "duration": 45.1,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/space-qa/web.mp4",
+      "preview": "media/space-qa/preview.mp4",
+      "poster": "media/space-qa/poster.jpg",
+      "breakdown": "media/space-qa/breakdown.jpg",
+      "timelineItems": 122,
+      "bytes": {
+        "web": 4563782,
+        "preview": 140345
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-4",
+        "poster.jpg": "poster-v1-packs/space_qa_short/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "short-card-vs-cash": {
+      "duration": 32.4,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/short-card-vs-cash/web.mp4",
+      "preview": "media/short-card-vs-cash/preview.mp4",
+      "poster": "media/short-card-vs-cash/poster.jpg",
+      "breakdown": "media/short-card-vs-cash/breakdown.jpg",
+      "timelineItems": 90,
+      "bytes": {
+        "web": 3737394,
+        "preview": 325513
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-3",
+        "poster.jpg": "poster-v1-packs/short1_card_vs_cash/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "short-scarcity-trap": {
+      "duration": 23.7,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/short-scarcity-trap/web.mp4",
+      "preview": "media/short-scarcity-trap/preview.mp4",
+      "poster": "media/short-scarcity-trap/poster.jpg",
+      "breakdown": "media/short-scarcity-trap/breakdown.jpg",
+      "timelineItems": 70,
+      "bytes": {
+        "web": 2958077,
+        "preview": 206958
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-3",
+        "poster.jpg": "poster-v1-packs/short2_scarcity_trap/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "short-five-fixes": {
+      "duration": 58.8,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/short-five-fixes/web.mp4",
+      "preview": "media/short-five-fixes/preview.mp4",
+      "poster": "media/short-five-fixes/poster.jpg",
+      "breakdown": "media/short-five-fixes/breakdown.jpg",
+      "timelineItems": 173,
+      "bytes": {
+        "web": 6887336,
+        "preview": 162811
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-6",
+        "poster.jpg": "poster-v1-packs/short3_five_fixes/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "broke-before-payday": {
+      "duration": 227.7,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/broke-before-payday/web.mp4",
+      "preview": "media/broke-before-payday/preview.mp4",
+      "poster": "media/broke-before-payday/poster.jpg",
+      "breakdown": "media/broke-before-payday/breakdown.jpg",
+      "timelineItems": 819,
+      "bytes": {
+        "web": 28150856,
+        "preview": 296959
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-50",
+        "poster.jpg": "poster-v1-packs/broke_before_payday/thumbnail.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "dancing-plague": {
+      "duration": 160.9,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/dancing-plague/web.mp4",
+      "preview": "media/dancing-plague/preview.mp4",
+      "poster": "media/dancing-plague/poster.jpg",
+      "breakdown": "media/dancing-plague/breakdown.jpg",
+      "timelineItems": 160,
+      "bytes": {
+        "web": 20424993,
+        "preview": 150847
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-44",
+        "poster.jpg": "poster-v1-packs/dancing_plague/thumbnail.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "ocean-facts": {
+      "duration": 118.6,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/ocean-facts/web.mp4",
+      "preview": "media/ocean-facts/preview.mp4",
+      "poster": "media/ocean-facts/poster.jpg",
+      "breakdown": "media/ocean-facts/breakdown.jpg",
+      "timelineItems": 428,
+      "bytes": {
+        "web": 16765586,
+        "preview": 212950
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-14",
+        "poster.jpg": "poster-v1-packs/ocean_facts/thumbnail.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "edit-reel": {
+      "duration": 32,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/edit-reel/web.mp4",
+      "preview": "media/edit-reel/preview.mp4",
+      "poster": "media/edit-reel/poster.jpg",
+      "breakdown": "media/edit-reel/breakdown.jpg",
+      "timelineItems": 67,
+      "bytes": {
+        "web": 5829437,
+        "preview": 387116
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-6.9",
+        "poster.jpg": "poster-v1-packs/sui_edit_reel/thumbnail.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "apollo-11": {
+      "duration": 85.1,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/apollo-11/web.mp4",
+      "preview": "media/apollo-11/preview.mp4",
+      "poster": "media/apollo-11/poster.jpg",
+      "breakdown": "media/apollo-11/breakdown.jpg",
+      "timelineItems": 93,
+      "bytes": {
+        "web": 8924520,
+        "preview": 110878
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-15.5",
+        "poster.jpg": "poster-v1-packs/apollo11_80s/thumbnail.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "compound-interest": {
+      "duration": 87.5,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/compound-interest/web.mp4",
+      "preview": "media/compound-interest/preview.mp4",
+      "poster": "media/compound-interest/poster.jpg",
+      "breakdown": null,
+      "timelineItems": null,
+      "bytes": {
+        "web": 5126997,
+        "preview": 82931
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-40",
+        "poster.jpg": "poster-v1-explainer-compound/exports/compound_interest_thumbnail.jpg"
+      }
+    },
+    "brand-pack": {
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "vertical": false,
+      "web": "media/brand-pack/web.mp4",
+      "preview": "media/brand-pack/preview.mp4",
+      "poster": "media/brand-pack/poster.jpg",
+      "breakdown": null,
+      "timelineItems": null,
+      "bytes": {
+        "web": 2361719,
+        "preview": 106530
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-1",
+        "poster.jpg": "poster-v1-packs/brand_pack/thumbnail.jpg"
+      }
+    },
+    "podcast-clip": {
+      "duration": 40.7,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/podcast-clip/web.mp4",
+      "preview": "media/podcast-clip/preview.mp4",
+      "poster": "media/podcast-clip/poster.jpg",
+      "breakdown": "media/podcast-clip/breakdown.jpg",
+      "timelineItems": 93,
+      "bytes": {
+        "web": 2129826,
+        "preview": 87126
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-2.5",
+        "poster.jpg": "poster-v1-packs/focus_podcast_clip/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "story-short": {
+      "duration": 34.7,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/story-short/web.mp4",
+      "preview": "media/story-short/preview.mp4",
+      "poster": "media/story-short/poster.jpg",
+      "breakdown": "media/story-short/breakdown.jpg",
+      "timelineItems": 76,
+      "bytes": {
+        "web": 2555507,
+        "preview": 87200
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-5.8",
+        "poster.jpg": "poster-v1-packs/notes_story_short/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    },
+    "motion-story": {
+      "duration": 48.2,
+      "width": 1080,
+      "height": 1920,
+      "vertical": true,
+      "web": "media/motion-story/web.mp4",
+      "preview": "media/motion-story/preview.mp4",
+      "poster": "media/motion-story/poster.jpg",
+      "breakdown": "media/motion-story/breakdown.jpg",
+      "timelineItems": null,
+      "bytes": {
+        "web": 3151826,
+        "preview": 67870
+      },
+      "keys": {
+        "web.mp4": "web-v1",
+        "preview.mp4": "preview-v1-0.5",
+        "poster.jpg": "poster-v1-packs/first_step/cover.jpg",
+        "breakdown.jpg": "breakdown-v1"
+      }
+    }
+  },
+  "beforeAfter": {
+    "before": "media/ba-slider/before.mp4",
+    "after": "media/ba-slider/after.mp4",
+    "poster": "media/ba-slider/poster.jpg",
+    "duration": 11.4,
+    "keys": {
+      "before.mp4": "ba-v1-0-11.4",
+      "after.mp4": "ba-v1-11.4-22.8",
+      "poster.jpg": "ba-poster-v1-11.4"
+    }
+  },
+  "showreel": {
+    "video": "media/showreel.mp4",
+    "poster": "media/showreel.jpg",
+    "duration": 25.2,
+    "keys": {
+      "showreel.mp4": "reel-v1-1.8-broke-before-payday@52,dancing-plague@20,ocean-facts@36,space-qa@5,short-card-vs-cash@4,short-scarcity-trap@4,short-five-fixes@7,edit-reel@7,apollo-11@16,compound-interest@41,brand-pack@2.5,podcast-clip@3.5,story-short@6.8,motion-story@1.5",
+      "showreel.jpg": "reel-poster-v2"
+    }
+  }
+}
